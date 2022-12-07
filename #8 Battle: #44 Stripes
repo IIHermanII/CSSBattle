@@ -1,0 +1,49 @@
+<div>
+  <div class = "yellow-bars">
+    <div class = "yellow"></div>
+    <div class = "yellow"></div>
+    <div class = "yellow"></div>
+    <div class = "yellow"></div>
+    <div class = "yellow"></div>
+  </div>
+  
+  <div class = "circle"></div>
+  <div class = "circle2"></div>
+</div>
+<style>
+
+  body {
+    background: #1A4341;
+  }
+
+  .circle{
+    width: 205px;
+    height:246px;
+    background:#1A4341;
+    border-radius:50%;
+    padding:10px;
+    position:relative;
+    margin-left:-83px;
+    bottom: 203px;
+  }
+  .circle2{
+    width: 205px;
+    height:246px;
+    background:#1A4341;
+    border-radius:50%;
+    padding:10px;
+    position:absolute;
+    margin-left: 242px;
+    bottom: 17px;
+  }
+  
+  .yellow {
+    width: 168px;
+    height:20px;
+    margin: 20px 105px;
+    background:#F3AC3C;
+    position: relative;
+    bottom: -40px;
+  }
+  
+</style>
