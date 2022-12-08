@@ -1,0 +1,43 @@
+<div>
+  <div class='square'></div>
+  <div class='square1'></div>
+  <div class='square2'></div>
+  <div class='square3'></div>
+</div>
+<style>
+  body {
+    background:#62374e;
+  }
+
+  .square {
+    background:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+    margin:42px 42px;
+  }
+
+  .square1 {
+    background:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+    margin:42px 292px;
+  }
+
+  .square2 {
+    background:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+    margin:192px 292px;
+  }
+
+  .square3 {
+    background:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+    margin:192px 42px;
+  }
+</style>
