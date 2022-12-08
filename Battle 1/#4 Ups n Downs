@@ -1,0 +1,61 @@
+<div>
+  <div class = 'bot'></div>
+  <div class = 'top'></div>
+  <div class = 'bot2'></div>
+  <div class = 'square1'></div>
+  <div class = 'square2'></div>
+  <div class = 'square3'></div>
+</div>
+<style>
+  body {
+    background:#62306D;
+  }
+  .bot {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background: #F7EC7D;
+    position:absolute;
+    margin:142px 42px;
+  }
+  .square1 {
+    background:#F7EC7D;
+    width:100px;
+    height:50px;
+    position:absolute;
+    margin:142px 42px;
+  }
+  .bot2 {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background: #F7EC7D;
+    position:absolute;
+    margin:142px 242px;
+  }
+
+  .square2 {
+    background:#F7EC7D;
+    width:100px;
+    height:50px;
+    position:absolute;
+    margin:142px 242px;
+  }
+
+  .top {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background: #F7EC7D;
+    position:absolute;
+    margin:42px 142px;
+  }
+
+  .square3 {
+    background:#F7EC7D;
+    width:100px;
+    height:50px;
+    position:absolute;
+    margin:92px 142px;
+  }
+</style>
