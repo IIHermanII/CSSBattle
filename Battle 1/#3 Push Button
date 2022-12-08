@@ -1,0 +1,49 @@
+<div>
+  <div class='rectangle'></div>
+  <div class='outerCirc'></div>
+  <div class='midCirc'></div>
+  <div class='innerCirc''></div>
+  
+</div>
+<style>
+  body {
+    background:#6592CF;
+  }
+  
+  
+  .rectangle {
+    background:#243D83;
+    width:300px;
+    height:150px;
+    position:absolute;
+    margin:67px 42px;
+  }
+
+  .outerCirc {
+    background:#6592CF;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    position:absolute;
+    margin:17px 67px;
+  }
+
+  .midCirc {
+    background:#243D83;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute;
+    margin:67px 117px;
+  }
+
+  .innerCirc {
+    background:#EEB850;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:absolute;
+    margin:117px 167px;
+  }
+  
+</style>
